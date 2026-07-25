@@ -1,0 +1,145 @@
+.spotify-amazon-footer {
+  background-color: #121212; /* Spotify Dark */
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.back-to-top {
+  background-color: #282828; /* Spotify secondary dark */
+  text-align: center;
+  padding: 15px 0;
+  transition: background-color 0.2s;
+}
+
+.back-to-top:hover {
+  background-color: #333333;
+}
+
+.back-to-top a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+}
+
+.footer-links-container {
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 80px;
+}
+
+.footer-column h3 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-weight: 700;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #b3b3b3; /* Spotify light gray text */
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-column ul li a:hover {
+  color: #1db954; /* Spotify green accent */
+  text-decoration: underline;
+}
+
+.footer-divider {
+  border-top: 1px solid #333333;
+  background-color: #181818;
+}
+
+.footer-settings {
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  gap: 15px;
+}
+
+.footer-logo {
+  margin-right: 40px;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1db954; /* Spotify Green */
+}
+
+.footer-setting-btn {
+  border: 1px solid #b3b3b3;
+  color: #b3b3b3;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.footer-setting-btn:hover {
+  border-color: #1db954;
+  color: #ffffff;
+}
+
+.footer-bottom {
+  background-color: #121212;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.legal-links {
+  margin-bottom: 10px;
+}
+
+.legal-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.2s;
+}
+
+.legal-links a:hover {
+  color: #1db954;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #b3b3b3;
+}
+
+/* Responsiveness */
+@media (max-width: 800px) {
+  .footer-links-container {
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px 20px;
+    justify-content: flex-start;
+  }
+  
+  .footer-settings {
+    flex-wrap: wrap;
+  }
+}
